@@ -1,0 +1,22 @@
+h1 {
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 700 !important;
+}
+
+#map {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  margin-bottom: 150px !important;
+  margin: auto !important;
+  transform: translate(-50%, -50%);
+  height: 500px;
+  width: 50%;
+  border: 10px solid grey;
+}
+
+@media screen and (max-width: 900px) {
+  #map {
+    top: 70%;
+  }
+}
